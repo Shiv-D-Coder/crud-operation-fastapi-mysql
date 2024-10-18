@@ -32,7 +32,7 @@ Edit `database.py` to include your MySQL connection details:
 ```python
 URL = "mysql+pymysql://<username>:<password>@localhost/<database_name>"
 ```
-Replace <username>, <password>, and <database_name> with your MySQL credentials.
+Replace username, password, and database_nam> with your MySQL credentials.
 
 ### Running the Application
 
@@ -46,10 +46,15 @@ Access the API documentation at:
 OpenAPI: http://127.0.0.1:8000/docs
 ReDoc: http://127.0.0.1:8000/redoc
 
+
 ### API Endpoints
 
 POST /add/: Add a new user
+
 GET /alluser/: Retrieve all users
+
 GET /user/id/{user_id}: Get a user by ID
+
 PUT /user/update/{user_id}: Update user details (to be added)
+
 DELETE /user/delete/{user_id}: Delete a user (to be added)
