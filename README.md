@@ -16,13 +16,13 @@ A FastAPI application for performing CRUD (Create, Read, Update, Delete) operati
 
 ## Project Structure
 
-├── main.py # Contains the FastAPI app with routes 
+main.py:  Contains the FastAPI app with routes 
 
-├── db.py # Database configuration and connection 
+db.py:  Database configuration and connection 
 
-├── model.py # SQLAlchemy model for User
+model.py:  SQLAlchemy model for User
 
-├── README.md # Project documentation
+README.md:  Project documentation
 
 
 ## Database Configuration
@@ -32,7 +32,7 @@ Edit `database.py` to include your MySQL connection details:
 ```python
 URL = "mysql+pymysql://<username>:<password>@localhost/<database_name>"
 ```
-Replace username, password, and database_nam> with your MySQL credentials.
+Replace username, password, and database_name with your MySQL credentials.
 
 ### Running the Application
 
