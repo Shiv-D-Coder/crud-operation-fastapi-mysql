@@ -16,7 +16,10 @@ A FastAPI application for performing CRUD (Create, Read, Update, Delete) operati
 
 ## Project Structure
 
-├── main.py # Contains the FastAPI app with routes ├── db.py # Database configuration and connection ├── model.py # SQLAlchemy model for User ├── requirements.txt # Python dependencies ├── README.md # Project documentation
+├── main.py # Contains the FastAPI app with routes 
+├── db.py # Database configuration and connection 
+├── model.py # SQLAlchemy model for User
+├── README.md # Project documentation
 
 
 ## Database Configuration
