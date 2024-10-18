@@ -18,12 +18,10 @@ A FastAPI application for performing CRUD (Create, Read, Update, Delete) operati
 
 ├── main.py # Contains the FastAPI app with routes ├── db.py # Database configuration and connection ├── model.py # SQLAlchemy model for User ├── requirements.txt # Python dependencies ├── README.md # Project documentation
 
-makefile
-Copy code
 
 ## Database Configuration
 
-Edit `db.py` to include your MySQL connection details:
+Edit `database.py` to include your MySQL connection details:
 
 ```python
 URL = "mysql+pymysql://<username>:<password>@localhost/<database_name>"
@@ -43,6 +41,7 @@ OpenAPI: http://127.0.0.1:8000/docs
 ReDoc: http://127.0.0.1:8000/redoc
 
 ### API Endpoints
+
 POST /add/: Add a new user
 GET /alluser/: Retrieve all users
 GET /user/id/{user_id}: Get a user by ID
